@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Service Test</string>
+    <string name="SETTINGS_FILE_NAME">settings_file_key_test_service_app</string>
+</resources>
