@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment Sample App</string>
+    <string name="Location">Location</string>
+    <string name="Address">Address</string>
+</resources>
