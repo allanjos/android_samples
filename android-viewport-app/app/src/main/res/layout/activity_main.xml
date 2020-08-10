@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp">
+
+    <ScrollView
+        android:id="@+id/scroll_view_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        tools:context="br.com.olivum.viewport.MainActivity">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp">
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:scaleType="center"
+                    android:src="@drawable/nuclear" />
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/linear_layout_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="1dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/image_view_thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/view_thumbnail_current_square"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#99cccccc"
+            android:orientation="vertical"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
